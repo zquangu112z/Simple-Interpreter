@@ -1,26 +1,9 @@
-# My Python project's template
+# Sample code for building an IMP interpreter
 
-### modd.conf
-Execute automatically declared tasks whenever code change like running test or less css.
-
-[About modd](https://github.com/cortesi/modd)
-
-Sample *modd.conf* file content:
->*.py{
->    daemon +sigterm: PYTHONPATH=src python app.py
->}
->
->*.less{
->	daemon +sigterm: lessc src/pricetracker/static/style.less src/pricetracker/static/style.css
->}
+[Tutorial](http://jayconrod.com/posts/37/a-simple-interpreter-from-scratch-in-python-part-1)
 
 
-### requirements.txt
-List required python packages
-Install:
+### Setup project
 ```bash
 pip install -r requirements.txt
 ```
-
-### .sandbox
-Contain #irl, ad-hoc code
